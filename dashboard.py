@@ -461,7 +461,7 @@ designs["prize_rank_score"] = (
 # deployment instructions), set PARQUET_DOWNLOAD_URL below to that asset's download
 # link and the app will fetch it automatically on first run. Leave it as None if the
 # parquet is already committed directly in the repo's output/ folder.
-PARQUET_DOWNLOAD_URL = None  # e.g. "https://github.com/DBbun/dbbun-darpa-lift-dashboard/releases/download/data-v1/missions_timeseries.parquet"
+PARQUET_DOWNLOAD_URL = "https://github.com/DBbun/dbbun-darpa-lift-dashboard/releases/download/data-v1/missions_timeseries.parquet"
 
 _pq = os.path.join(OUTPUT_DIR, "missions_timeseries.parquet")
 _csv = os.path.join(OUTPUT_DIR, "missions_timeseries.csv")
